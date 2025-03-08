@@ -142,3 +142,67 @@ h3{
 .product-explain>p{
     margin:0;
 }
+#company{
+    margin: 80px auto 80px auto;
+    padding: 10px 40px 0px 40px;
+    /* paddingは指示に書いてなかった？ */
+}
+#company-table{
+    width:100%;
+}
+.tableheader{
+    text-align: left;
+    padding: 20px;
+    border-bottom-color: #04414A;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    width:100px;
+    /* 100pxと100%を書き間違え */
+}
+.tableheader-first{
+    border-top-color:#04414A;
+    border-top-width:1px;
+    border-top-style:solid;
+}
+.cell{
+    padding:30px;
+    border-bottom-color:#ececec;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+}
+.cell-first{
+    border-top-color:#ececec;
+    border-top-width:1px;
+    border-top-style:solid;
+}
+footer{
+    background-color: #04414A;
+    text-align: center;
+    padding:80px 80px 30px 80px;
+}
+#footer-logo{
+    margin-bottom: 30px;
+}
+#footer-link{
+    margin-bottom: 50px;
+}
+#footer-link>a{
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    color: #ffffff;
+}
+#footer-link>a:hover{
+    text-decoration: underline;
+}
+#sns-footer{
+    text-align: left;
+}
+#sns-footer>a{
+    margin-right:20px;
+}
+#copyright{
+    float: right;
+    color:#ffffff;
+    margin:0;
+    /* SNSロゴの少し下に表示されていたが、margin:0;に指定すると一列になった。 */
+}
